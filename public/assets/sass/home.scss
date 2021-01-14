@@ -16,7 +16,7 @@ a:hover {
 	text-decoration: underline;
 }
 
-.menu > div {
+.menu>div {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -39,13 +39,13 @@ a:hover {
 }
 
 .menu {
-  white-space: normal;
+	white-space: normal;
 }
 
 .menu nav {
-  margin: 10px 0;
-  display: flex;
-  flex-direction: row;
+	margin: 10px 0;
+	display: flex;
+	flex-direction: row;
 }
 
 .menu nav a:first-child {
@@ -61,7 +61,7 @@ a:hover {
 }
 
 .menu nav a:hover {
-  color: var(--a-hover)
+	color: var(--a-hover)
 }
 
 span {

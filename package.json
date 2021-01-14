@@ -5,7 +5,9 @@
   "main": "server.js",
   "scripts": {
     "sass": "sass --watch public/assets/sass/reset.scss:public/assets/css/main.css",
-    "start": "nodemon server.js"
+    "start": "nodemon server.js",
+    "lint": "eslint .",
+    "lintFix": "eslint . --fix"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +17,7 @@
     "sass": "^1.32.4"
   },
   "devDependencies": {
+    "eslint": "^7.17.0",
     "nodemon": "^2.0.7"
   }
 }
