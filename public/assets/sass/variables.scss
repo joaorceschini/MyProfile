@@ -1,0 +1,22 @@
+:root {
+  --back-white-mode: #f2f3f5;
+  --title: #7eded4;
+  --text: #aaa;
+  --a: #248BD3;
+  --a-hover: #757372;
+  --back-span: #dee1e3;
+  --text-span: #D43A85;
+}
+
+@media (prefers-color-scheme: dark) {
+	/* dark theme */
+	:root {
+    --back-white-mode: #002B36;
+    --title: #7eded4;
+    --text: #aaa;
+    --a: #a6e4ed;
+    --a-hover: #dce4e6;
+    --back-span: #083642;
+    --text-span: #D43A85;
+  }
+}

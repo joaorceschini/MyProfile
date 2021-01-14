@@ -1,0 +1,20 @@
+{
+  "name": "JR",
+  "version": "1.0.0",
+  "description": "JR profile",
+  "main": "server.js",
+  "scripts": {
+    "sass": "sass --watch public/assets/sass/reset.scss:public/assets/css/main.css",
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "sass": "^1.32.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

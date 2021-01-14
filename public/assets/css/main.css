@@ -1,0 +1,140 @@
+:root {
+  --back-white-mode: #f2f3f5;
+  --title: #7eded4;
+  --text: #aaa;
+  --a: #248BD3;
+  --a-hover: #757372;
+  --back-span: #dee1e3;
+  --text-span: #D43A85;
+}
+
+@media (prefers-color-scheme: dark) {
+  /* dark theme */
+  :root {
+    --back-white-mode: #002B36;
+    --title: #7eded4;
+    --text: #aaa;
+    --a: #a6e4ed;
+    --a-hover: #dce4e6;
+    --back-span: #083642;
+    --text-span: #D43A85;
+  }
+}
+body {
+  white-space: pre-line;
+  background-color: var(--back-white-mode);
+  color: #657B83;
+  padding: 20px;
+  line-height: 150%;
+  font-size: 1.1em;
+  font-family: monospace;
+}
+
+p {
+  color: var(--text);
+}
+
+article {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 640px;
+  line-height: 150%;
+}
+
+a {
+  color: var(--a);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--a-hover);
+  text-decoration: underline;
+}
+
+.menu > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.menu .img {
+  background-image: url("../images/car-yellow.gif");
+  background-position: center;
+  background-size: cover;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+.menu h4 {
+  color: var(--title);
+  font-size: 1.9em;
+  margin: 0;
+  margin-left: 10px;
+}
+
+.menu {
+  white-space: normal;
+}
+
+.menu nav {
+  margin: 10px 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.menu nav a:first-child {
+  margin-left: 0;
+}
+
+.menu nav a {
+  color: var(--a);
+  transition: color 0.2s ease;
+  font-size: 1.1em;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.menu nav a:hover {
+  color: var(--a-hover);
+}
+
+span {
+  color: var(--text-span);
+  font-size: 1.2em;
+  background-color: var(--back-span);
+  width: 100%;
+  display: block;
+  margin: 0;
+  padding: 8px 0;
+  border-radius: 6px;
+  margin-top: -30px;
+}
+
+span::before {
+  content: "# ";
+  font-size: 0.8em;
+  margin-left: 10px;
+}
+
+.projects {
+  margin-left: 10px;
+}
+
+.projects span {
+  margin-left: -10px;
+}
+
+.projects .block-title {
+  font-size: 1.1em;
+  margin: 0;
+}
+
+.projects .block-desc {
+  border-left: 2px solid #ccc;
+  padding-left: 10px;
+  margin: 0;
+}
+
+/*# sourceMappingURL=main.css.map */
