@@ -11,3 +11,39 @@ body {
 p {
 	color: var(--text);
 }
+
+a {
+	color: var(--a);
+	text-decoration: none;
+}
+
+a:hover {
+	color: var(--a-hover);
+	text-decoration: underline;
+}
+
+b {
+	color: var(--b);
+}
+
+b.cursor-help {
+	cursor: help;
+}
+
+span {
+	color: var(--text-span);
+	font-size: 1.2em;
+	background-color: var(--back-span);
+	width: 100%;
+	display: block;
+	margin: 0;
+	padding: 8px 0;
+	border-radius: 6px;
+	margin-top: -30px;
+}
+
+span::before {
+	content: '# ';
+	font-size: 0.8em;
+	margin-left: 10px;
+}

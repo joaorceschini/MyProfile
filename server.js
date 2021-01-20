@@ -9,5 +9,5 @@ server.get('/', (req, res) => {
 })
 
 server.listen(3000, () => {
-  console.log("[SERVER]・Servidor rodando na porta 3000")
+  console.log("[SERVER]・Servidor rodando na porta 3000 (http://localhost:3000/)")
 })

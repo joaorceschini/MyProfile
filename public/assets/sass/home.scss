@@ -6,16 +6,6 @@ article {
 	line-height: 150%;
 }
 
-a {
-	color: var(--a);
-	text-decoration: none;
-}
-
-a:hover {
-	color: var(--a-hover);
-	text-decoration: underline;
-}
-
 .menu > div {
 	display: flex;
 	flex-direction: row;
@@ -64,24 +54,6 @@ a:hover {
   color: var(--a-hover)
 }
 
-span {
-	color: var(--text-span);
-	font-size: 1.2em;
-	background-color: var(--back-span);
-	width: 100%;
-	display: block;
-	margin: 0;
-	padding: 8px 0;
-	border-radius: 6px;
-	margin-top: -30px;
-}
-
-span::before {
-	content: '# ';
-	font-size: 0.8em;
-	margin-left: 10px;
-}
-
 .projects {
 	margin-left: 10px;
 }
@@ -93,10 +65,22 @@ span::before {
 .projects .block-title {
 	font-size: 1.1em;
 	margin: 0;
+	color: var(--text-title);
 }
 
 .projects .block-desc {
 	border-left: 2px solid #ccc;
 	padding-left: 10px;
 	margin: 0;
+}
+
+.interests {
+	p {
+		&.i-list {
+			margin: 0;
+		}	
+		&:last-child {
+			margin-top: -15px;
+		}
+	}
 }
