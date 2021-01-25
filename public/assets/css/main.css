@@ -25,6 +25,7 @@
   }
 }
 body {
+  margin-top: -50px;
   white-space: pre-line;
   background-color: var(--back-white-mode);
   color: #657B83;
